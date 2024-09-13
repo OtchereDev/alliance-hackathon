@@ -150,8 +150,8 @@ export default function CreateCampaign() {
               </div>
 
               <div className="mt-6 flex flex-col gap-5">
-                {PaymentMethod.map(({ name, Icon }) => (
-                  <div className="flex w-full items-center gap-5 rounded-[10px] border px-5 py-4">
+                {PaymentMethod.map(({ name, Icon }, i) => (
+                  <div key={i} className="flex w-full items-center gap-5 rounded-[10px] border px-5 py-4">
                     <Checkbox />
 
                     <div className="flex items-center gap-3">

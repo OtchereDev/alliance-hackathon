@@ -9,6 +9,7 @@ export default function BecomeADonorCompany() {
         <img
           className="absolute left-0 top-0 h-full w-full object-cover"
           src="https://s3-alpha-sig.figma.com/img/4793/ad44/6d333ffae7562ffea8f7c0439316e12e?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mrcX68rJtxqv6E8K4oF~LO4VjINReKRruBG8DRwlo1TMGQe4ZymAHyfM6X5W0pDGg4B-5Lzc6qCjYMzTLlS58un6LkyF86Y-NyB6KVh72qiqc~w0VLxdsZxcWz1~JWqLyy3750XgcKysVkkxbDrQo~ivHXpECjKH1btONM7XAyuFMz2nJqRjmDYjmvH-5qRMyQWck8mz3SNO-OqHnF1eh7Hozpq-yzr07XfvyM6xN14CVQeBfEAfnEftWddwlvxqpBZ2zbLxXtl928nt7965pZgDQ2RA~MaB4i2oQqNshr541zXw2e7ockX0X5sdGcasSANlWdg3gOirnH5OZkyn1A__"
+          alt='Become a Donor IMG'
         />
         <div className="absolute h-full w-full bg-black bg-opacity-20" />
         <div className="relative flex h-full flex-col justify-between p-[50px] pb-[100px]">

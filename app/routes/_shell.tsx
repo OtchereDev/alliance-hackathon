@@ -1,27 +1,16 @@
-import { Link, Outlet } from '@remix-run/react'
+import { Outlet } from '@remix-run/react'
 import {
   FooterLogo,
   Instagram,
   LinkedIn,
-  LogoGreen,
   XLogo,
 } from '~/components/shared/icons'
+import NavBar from '~/components/ui/navbar'
 
 export default function Home() {
   return (
     <div>
-      <div className="box-sh fixed left-0 right-0 top-5 z-10 mx-auto flex w-full max-w-[1380px] items-center justify-between rounded-[20px] bg-white px-[30px] py-[18px]">
-        <LogoGreen className="h-[25px] w-[180px]" />
-
-        <div className="flex gap-[30px]">
-          <button className="font-bold">Campaigns</button>
-          <Link to={'/become-a-donor-company'}>
-            <button className="rounded-full border border-primary bg-primary px-[30px] py-2 font-bold text-white lg:block">
-              Become A Donor Company
-            </button>
-          </Link>
-        </div>
-      </div>
+      <NavBar/>
       <Outlet />
       <div className="mx-auto max-w-[1440px] px-[50px]">
         <footer className="mt-[150px] flex justify-between border-t p-[50px]">
@@ -45,7 +34,7 @@ export default function Home() {
           <div>
             <h3 className="font-bold text-ablack">Find us</h3>
             <p className="mt-5 max-w-[186px]">
-              13 Elliott's Place, Islington, London N1 8HX
+              13 Elliott&apos;s Place, Islington, London N1 8HX
             </p>
           </div>
         </footer>

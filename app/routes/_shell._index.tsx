@@ -11,6 +11,7 @@ export default function Home() {
         <img
           src={Hero}
           className="absolute left-0 top-0 h-full w-full object-cover"
+          alt='Hero_Image'
         />
         <div className="relative">
           <h2 className="text-center text-[40px] font-bold text-white">

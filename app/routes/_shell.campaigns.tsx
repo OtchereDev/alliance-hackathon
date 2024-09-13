@@ -20,6 +20,7 @@ export default function Campaigns() {
             src={
               'https://s3-alpha-sig.figma.com/img/6e36/b4e7/f9c7629701bdbf890ecc595d840a1f25?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q5YSNx3KXJNqMW4Au~omtFIYDRhUSXieUmJTPwt5gc17rsMVJhiEtxyYM2vnxdAEbsDqL67QmUpopDQjrkhBMy0QjG8xqmGevwYzT~4weOnCupXVUSxSe3bcNu5fKImHGsJuc~LBCicNXTc4araHwgY2Ae3gUhydXV6SA-bMYL9TADvz2R82OWx4l18K0JIzX5vqzL4TFio45YtOQByisF--d-WC4VhzsP0hwDKwQjngbcqmUyyHQ4hGemrs-WlLxQWYP2kGpw4izIU6MMLGwm3GZB2mM~HOV2LGM4mp0HUVzDvA75ae5GgwO-QJhyo3u-K~gLzF0sXeShxWLQxymg__'
             }
+            alt={"Campaign_Image"}
             className="absolute left-0 top-0 h-full w-full object-cover"
           />
           <div className="absolute left-0 top-0 h-full w-full bg-black bg-opacity-20"></div>
