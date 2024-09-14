@@ -1,5 +1,5 @@
 import { Form } from '@remix-run/react'
-
+import ThankYou from '~/components/dialogs/ThankYou'
 import ImageBox from '~/components/ui/imagebox'
 import { Label } from '~/components/ui/label'
 import NavBar from '~/components/ui/navbar'
@@ -46,9 +46,11 @@ export default function Home() {
                 </div>
 
                 <div className="mt-[40px] flex w-[70%] justify-center">
-                  <button className="hidden w-full rounded-full border border-primary bg-primary px-[54px] py-2 font-bold text-white lg:block">
-                    Request Refund
-                  </button>
+                  <ThankYou>
+                    <button className="hidden w-full rounded-full border border-primary bg-primary px-[54px] py-2 font-bold text-white lg:block">
+                      Request Refund
+                    </button>
+                  </ThankYou>
                 </div>
               </Form>
             </div>
